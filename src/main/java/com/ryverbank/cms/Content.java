@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Column;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 public class Content {
@@ -17,6 +18,7 @@ public class Content {
     private String summary;
     private String content;
     private String link;
+    @JsonProperty
     private boolean approved;
 
     // GETTERS
@@ -25,7 +27,7 @@ public class Content {
     public String getSummary() { return this.summary; }
     public String getContent() { return this.content; }
     public String getLink() { return this.link; }
-    public boolean getStatus() { return this.approved; }
+    public boolean getApproved() { return this.approved; }
 
     // SETTERS
     public void setTitle(String title) { this.title = title; }
