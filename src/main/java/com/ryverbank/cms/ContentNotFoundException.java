@@ -10,7 +10,7 @@ public class ContentNotFoundException extends RuntimeException{
      */
     private static final long serialVersionUID = 1L;
 
-    public ContentNotFoundException(int id) {
+    public ContentNotFoundException(Long id) {
         super("Could not find book " + id);
     }
     

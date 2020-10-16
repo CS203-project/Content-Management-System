@@ -1,0 +1,17 @@
+
+TASKS TO DO:
+
+# VRINDA:
+    - link to user auth, get credentials and save them (done)
+    - add approve method (not sure how to do)
+    - clean the code (done)
+    - add relevant dependencies (done)
+
+#TANISHA:
+    - check if correct role and then proceed to do methods, verify 
+    - limit actions based on the role for all methods
+
+few unresolved doubts (Vrinda):
+- for the Analyst to delete the content, does it need approval form Manager?
+- still unsure how to do approved method, see if you can do it. 
+
